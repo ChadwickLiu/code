@@ -1,0 +1,15 @@
+# 编译产物目录
+build/
+output/
+
+# 可执行文件
+*.exe
+*.o
+*.obj
+*.out
+*.ilk
+*.pdb
+
+# 编辑器 / 系统垃圾
+.DS_Store
+Thumbs.db

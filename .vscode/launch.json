@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/liudu/Desktop/code",
+      "program": "c:/Users/liudu/Desktop/code/build/Debug/outDebug.exe",
+      "MIMode": "gdb",
+      "miDebuggerPath": "D:/w64devkit/bin/gdb.exe",
+      "preLaunchTask": "C Build Debug",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

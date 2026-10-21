@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "C Build Debug",
+      "type": "shell",
+      "command": "cmd",
+      "args": [
+        "/c",
+        "if not exist build\\Debug mkdir build\\Debug && D:/w64devkit/bin/gcc.exe -g ${file} -o build\\Debug\\outDebug.exe"
+      ],
+      "options": {
+        "cwd": "c:/Users/liudu/Desktop/code"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
